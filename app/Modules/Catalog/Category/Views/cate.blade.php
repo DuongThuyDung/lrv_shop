@@ -1,0 +1,1 @@
+<h1>Đây là trang view Category</h1>
