@@ -14,6 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('', 'frontend\HomeController@GetHome')->name('Home');
+Route::get('About', 'frontend\AboutController@GetAbout')->name('About');
+Route::get('New', 'frontend\NewController@GetNew')->name('New');
+Route::get('Regulation', 'frontend\RegulationController@GetRegulation')->name('Regulation');
+Route::get('new/{id}/{TieuDeKhongDau}.html','NewController@new');
+
 
 Route::group(['prefix' => 'admin','namespace' => '\App\Modules'], function(){
     Route::get('/register', "Common\Dashboard\Controllers\CommonController@GetRegister")->name('admin-register');

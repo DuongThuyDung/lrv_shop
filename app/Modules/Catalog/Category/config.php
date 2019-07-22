@@ -2,19 +2,19 @@
 return [
     'menu' => [
         [
-            'label' => 'Category',
+            'label' => 'Thể Loại Tin Tức',
             'name' => 'Category',
-            'icon' => 'fa-home',
+            'icon' => 'fa-list',
             'childrens' => [
                 [
-                    'label' => 'Category',
+                    'label' => 'Danh dách',
                     'name' => 'Category',
-                    'icon' => 'fa-home',
+                    'icon' => '',
                 ],
                 [
-                    'label' => 'Add new Category',
+                    'label' => 'Thêm mới',
                     'name' => 'AddCategory',
-                    'icon' => 'fa-home',
+                    'icon' => '',
                 ]
             ]
         ]

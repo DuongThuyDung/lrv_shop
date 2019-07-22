@@ -30,7 +30,7 @@
 <body class="hold-transition register-page">
 <div class="register-box">
   <div class="register-logo">
-    <b>BKSOFT SHOP</b>
+    <b>BKAP</b>
   </div>
 
   <div class="register-box-body">
